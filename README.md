@@ -1,2 +1,2 @@
 # PlayGamesWeb
-Check PlayGames.ga
+Check PolyGames.ga

@@ -1,2 +1,0 @@
-# PlayGamesWeb
-Check PolyGames.ga

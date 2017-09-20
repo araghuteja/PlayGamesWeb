@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'waukegan_ldoregular';
+    src: url('fonts/waukegan_ldo-webfont.woff2') format('woff2'),
+         url('fonts/waukegan_ldo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.brand-centered {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+}
+
+/*demo styling only*/
+.navbar-brand {
+  padding: 0px; /* remove bootstrap padding on floated image containers -  */ 
+}
+.navbar-brand>img {
+  height: 80px;
+  width: 80px;
+  padding: 7px 14px 7px 0; /* padding for image ... text needs no padding */
+}
+
+.navbar-toggle {
+  z-index: 1;
+}
+
+head{
+	height:100vh;	
+}
+
+body{
+	height:100vh;
+	font-family: 'waukegan_ldoregular';
+	font-size: 28px;
+}
